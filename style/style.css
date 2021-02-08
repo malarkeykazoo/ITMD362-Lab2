@@ -21,12 +21,18 @@ body {
   align-self: center;
   justify-content: center;
 }
-#formContain label, input {
-  padding: 5%,
-  text-align: center;
-  
+#formContain label  {
+  padding: 15%;
 }
-#submit{
-  font-size: 85%;
-  text-align: center
+#formContain label, input {
+  text-align: center;
+  width: 100%;
+  border: 10%;
+}
+#submitContain{
+  font-size: 75%;
+  padding: 5%;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto; 
 }
