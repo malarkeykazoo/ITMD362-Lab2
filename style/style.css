@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body { 
+  color: rgb(20, 20, 20); 
+  font-family: 'Lato', sans-serif;
+  font-size: 150%;
+  margin: 0 auto; 
+  background: #849bff; }
+#pageContain  {
+  margin: 2%;
+  padding: 2%;
+  text-align: center;
+ }
+#pageContain h2, h3, p {
+  font-weight: bold;
+}
+#formContain  {
+  padding-top: 2%;
+  margin: 0 auto; 
+  align-self: center;
+  justify-content: center;
+}
+#formContain label, input {
+  padding: 5%,
+  text-align: center;
+  
+}
+#submit{
+  font-size: 85%;
+  text-align: center
+}
