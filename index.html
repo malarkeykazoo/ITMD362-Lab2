@@ -7,13 +7,14 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Lato" >
   <link rel="stylesheet" type="text/css" href="style/normalize.css">
   <link rel="stylesheet" type="text/css" href="style/style.css">
+  <script type="text/javascript" src="js/script.js"></script>
   </head>
-  <body>
+  <body onload="init()">
     <div id="pageContain">
       <h2>Super Awesome Form</h2>
       <h3>Please fill out the details below.</h3>
       <p>Definitely not for nefarious purposes, I promise.</p>
-      <form action="#null" method="post">
+      <form id="awesomeForm" action="#null" method="post">
         <div id="formContain">
           <fieldset>
             <legend>Innocent data collection apparatus.</legend>
@@ -21,19 +22,19 @@
               <label for="email">Email Address:</label>
             </div>
             <div class="inputBox">  
-              <input type="email" id="email" name="email" placeholder="Email Address">
+              <input type="email" id="email" name="email" placeholder="Email Address" required>
             </div>
             <div class="labelBox">
               <label for="phone_field">Phone Number:</label>
             </div>
             <div class="inputBox">
-              <input type="tel" id="phone_field" name="phone_field" placeholder="555-555-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+              <input type="tel" id="phone_field" name="phone_field" placeholder="555-555-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
             </div>
             <div class="labelBox">
               <label for="birthdate">Birth Date:</label>
             </div>
             <div class="inputBox">
-              <input type="date" id="birthdate" name="birthdate">
+              <input type="date" id="birthdate" name="birthdate" required>
             </div>
           </fieldset>
         </div>  

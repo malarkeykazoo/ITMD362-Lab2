@@ -62,7 +62,9 @@ input[type=submit] {
   border:0 none;
   cursor:pointer;
   -webkit-border-radius: 5px;
-  border-radius: 5px; 
+  border-radius: 5px;
+  white-space: normal;
+  width: 200px; 
 }
 @media only screen and (min-width: 900px) {
   body { 
@@ -80,12 +82,13 @@ input[type=submit] {
   #pageContain h2, h3, p {
     font-weight: bold;
     padding: 1%;
+    font-size: 1.5vw;
   }
   #pageContain h2{
-    font-size: 200%;
+    font-size: 3.5vw;
   }
   #pageContain h3{
-    font-size: 150%;
+    font-size: 2.5vw;
   }
   #formContain  {
     padding-top: 2%;
@@ -94,12 +97,12 @@ input[type=submit] {
   }
   #formContain legend  {
     margin: 0 auto;
-    font-size: 175%;
+    font-size: 1.5vw;
     text-align: center;
   }
   #formContain label  {
     margin: 0 auto;
-    font-size: 125%;
+    font-size: 2vw;
     }
   #formContain input {
     width: 80%;
@@ -107,7 +110,8 @@ input[type=submit] {
     text-align: left;
     border: 2px solid rgb(38, 0, 255);
     border-radius: 4px;
-    line-height: 30px;
+    line-height: 3vw;
+    font-size: 2vw;
   }
   .labelBox {
     float: left;
@@ -134,5 +138,6 @@ input[type=submit] {
     border-radius: 5px; 
     font-weight: bold;
     font-size: 150%;
+    width: 250px;
   }
 }
