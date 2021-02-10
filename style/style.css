@@ -138,7 +138,7 @@ input[type=submit] {
     -webkit-border-radius: 10px;
     border-radius: 10px; 
     font-weight: bold;
-    font-size: 1.75vw%;
+    font-size: 1.75vw;
     width: 15vw;
   }
 }
