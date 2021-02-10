@@ -117,12 +117,12 @@ input[type=submit] {
   .labelBox {
     float: left;
     width: 25%;
-    margin-top: 05%;
+    margin-top: 2%;
   }
   .inputBox {
     float: left;
     width:75%;
-    margin-top: 5%;
+    margin-top: 2%;
   }
   #submitContain{
     font-size: 75%;
