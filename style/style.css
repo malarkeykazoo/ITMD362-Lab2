@@ -72,7 +72,7 @@ input[type=submit] {
   white-space: normal;
   width: 200px; 
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   body { 
     color: rgb(20, 20, 20); 
     font-family: 'Lato', sans-serif;
