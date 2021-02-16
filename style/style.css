@@ -72,6 +72,9 @@ input[type=submit] {
   white-space: normal;
   width: 200px; 
 }
+fieldset{
+  border: 0;
+}
 @media only screen and (min-width: 1000px) {
   body { 
     color: rgb(20, 20, 20); 
@@ -105,11 +108,15 @@ input[type=submit] {
     margin: 0 auto;
     font-size: 1.25vw;
     text-align: center;
+    padding-bottom: 2%;
   }
   #formContain label  {
     margin: 0 auto;
     font-size: 1.5vw;
-    }
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+}
   #formContain input {
     width: 80%;
     margin: 0 auto;
@@ -118,16 +125,20 @@ input[type=submit] {
     border-radius: 10px;
     line-height: 2.5vw;
     font-size: 1.5vw;
+    top: 50%;
+    transform: translateY(-50%);
   }
   .labelBox {
     float: left;
     width: 25%;
     margin-top: 2%;
+    position: relative;
   }
   .inputBox {
     float: left;
     width:75%;
     margin-top: 2%;
+    position: relative;
   }
   #submitContain{
     font-size: 75%;
