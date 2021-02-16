@@ -103,6 +103,8 @@ fieldset{
     padding-top: 2%;
     margin: 0 auto; 
     text-align: left;
+    border-style: solid;
+    border-width: 1px;
   }
   #formContain legend  {
     margin: 0 auto;
